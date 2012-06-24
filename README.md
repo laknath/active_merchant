@@ -1,5 +1,9 @@
 # Active Merchant
 
+Edit
+=====
+*Added PayPal express recurring module from rayvinly/active_merchant*
+
 Active Merchant is an extraction from the e-commerce system [Shopify](http://www.shopify.com).
 Shopify's requirements for a simple and unified API to access dozens of different payment
 gateways with very different internal APIs was the chief principle in designing the library.
