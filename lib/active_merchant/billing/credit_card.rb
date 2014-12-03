@@ -242,7 +242,7 @@ module ActiveMerchant #:nodoc:
 
       def validate_essential_attributes #:nodoc:
         errors.add :first_name, "cannot be empty"      if @first_name.blank?
-        errors.add :last_name,  "cannot be empty"      if @last_name.blank?
+        ##errors.add :last_name,  "cannot be empty"      if @last_name.blank?
 
         if @month.to_i.zero? || @year.to_i.zero?
           errors.add :month, "is required"  if @month.to_i.zero?
